@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRUDENCE OKWUBOR | PORTFOLIO</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -11,15 +12,15 @@
     <header class="main-header">
         <div class="logo">Portfolio</div>
         <input type="checkbox" class="menu-button" id="menu-button" name="menu-button" placeholder="toor">
-        <label for="menu-button">
+        <label class="menu-container" for="menu-button">
             <span class="hamburger"></span>
         </label>
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-items"><a href="#Home" class="nav-link">Home</a></li>
-                <li class="nav-items"><a href="#Services" class="nav-link">Services</a></li>
-                <li class="nav-items"><a href="#About Me" class="nav-link">About Me</a></li>
-                <li class="nav-items"><a href="#Projects" class="nav-link">Projects</a></li>
+            <ul class="nav__list">
+                <li class="nav__items"><a href="#Home" class="nav__link">Home</a></li>
+                <li class="nav__items"><a href="#Services" class="nav__link">Services</a></li>
+                <li class="nav__items"><a href="#About Me" class="nav__link">About Me</a></li>
+                <li class="nav__items"><a href="#Projects" class="nav__link">Projects</a></li>
             </ul>
         </nav>
     </header>
@@ -27,18 +28,130 @@
 
     <!-- INTRO SECTION START -->
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            <strong>I am prudence</strong>
+        <h1 class="section__title section__title--intro">Hello
+            <strong>I am Prudence</strong>
         </h1>
         <p class="section__title section__subtitle--intro">
             Frontend Developer
         </p>
-        <span class="Section__subtitle--design">Designer</span>
-        <img src="/img/prudence.jpg" class="Intro__img" alt="Intro__img">
-
-
-
+        <span class="section__subtitle--design">Designer</span>
+        <img src="/img/prudence.jpg" class="intro__img" alt="Intro__img">
     </section>
     <!-- INTRO SECTION ENDS -->
+
+    <!-- MY SERVICES START -->
+     <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">
+            What I Do
+        </h2>
+        <div class="services">
+            <div class="service">
+                <h3>UI/UX</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui animi voluptatum sunt dicta deleniti necessitatibus.</p>
+            </div>
+            <div class="service">
+                <h3>Frontend</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid consequatur non? Distinctio, porro dignissimos?</p>
+            </div>
+            <div class="service">
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae hic magni quaerat est exercitationem delectus.</p>
+            </div>
+            <div class="service">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo expedita culpa odit cupiditate soluta? Possimus.</p>
+                <a class="btm" href="#work">My Project</a>
+            </div>
+        </div>
+     </section>
+     <!-- MY SERVICES ENDS -->
+
+     <!-- ABOUT ME STARTS -->
+     <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">Frontend Developer and Designer based in Magboro</p>
+        <div class="about__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi repellat maiores, earum numquam, inventore veniam cumque quaerat sunt qui nesciunt ratione, autem optio nulla? Saepe distinctio soluta vero quis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quos perspiciatis, provident deserunt nemo vel sit cupiditate minima quasi sed!</p>
+        </div>
+        <img class="about-me__img" src="/img/african.jpg" alt="my image">
+    </section>
+    <!-- ABOUT ME ENDS -->
+    
+    
+    <!-- MY WORK START -->
+    <section class="my_work" id="projects">
+        <h2 class="section__title">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <div class="portfolio">
+            <div class="portfolio__item">
+                <h3 class="section__title--portfolio">UI Design</h3>
+                <p class="section__subtitle--portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn--portfolio" target="_blank">View Project</a>
+            </div>
+            <div class="portfolio__item">
+              <h3 class="section__title--portfolio">Cyber Security</h3>
+                <p class="section__subtitle--portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn--portfolio" target="_blank">View Project</a>  
+            </div>
+            <div class="portfolio__item">
+                <h3 class="section__title--portfolio">Ethical Hacking</h3>
+                <p class="section__subtitle--portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn--portfolio" target="_blank">View Project</a> 
+            </div>
+            <div class="portfolio__item">
+                <h3 class="section__title--portfolio">Software Engineer</h3>
+                <p class="section__subtitle--portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn--portfolio" target="_blank">View Project</a> 
+            </div>
+            <div class="portfolio__item">
+                 <h3 class="section__title--portfolio">Video Editing</h3>
+                <p class="section__subtitle--portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn--portfolio" target="_blank">View Project</a> 
+            </div>
+            <div class="portfolio__item">
+                 <h3 class="section__title--portfolio">Graphic Design</h3>
+                <p class="section__subtitle--portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn--portfolio" target="_blank">View Project</a> 
+            </div>
+        </div>
+    </section>
+    <!-- MY WORK START -->
+      
+    <!-- THE ICON BELOW IS FOR SCROLLING TO THE TOP -->
+    <button title="button" type="button" onclick="scrollToTop()" id="scrollToTopBtn" >
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- FOOTER -->
+     <footer class="footer">
+        <a href="mailto:okwuborprudence@gmail.com" class="footer-link">okwuborprudence@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <i class="fa-brands fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <i class="fa-solid fa-basketball"></i> 
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <i class="fa-brands fa-behance"></i> 
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+
+     </footer>
+     <script src="/js/index.js">
+
+     </script>
 </body>
 </html>
